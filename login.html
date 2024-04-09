@@ -1,0 +1,86 @@
+<meta charset="UTF-8">
+   <!DOCTYPE html>
+   <html lang="es">
+      
+       <head>
+        
+           <title>Registro</title>
+           <link rel="stylesheet" href="css/style.css">
+       </head>
+      
+      
+       <body>
+                  
+           <div>
+            
+            <form method="post" action="resultado.html" class="formRegis">
+                <h3>Información personal</h3>
+            <fieldset>
+            
+                   <!--input para nombre-->
+         <div class="Nom">
+           <label for="nombre">Nombre</label>
+           <input class="entrada" type="text" name="nom" id="nombre">
+          </div>
+        <!--input de apellido-->
+        
+        <div class="ape">
+            <label for="apellido">Apellido</label>
+            <input class="entrada" type="text" name="ape" id="apellido">
+        </div>
+   
+          <!--input de genero-->
+       
+        <div class="Gen">
+            <label for="genero">Genero</label>
+            <input class="genero" type="radio" name="gen" value="masculino" id="Masculino">
+            <input class="genero" type="radio" name="gen" value="femenino" id="Femenino">
+        </div>
+          
+        <!--input para correo-->
+          
+        <div class="Cor">
+            <label for="correo">Correo</label>
+            <input class="entrada" type="email" name="cor" id="correo">
+           </div>
+      
+           <!--input para contraseña-->   
+      
+           <div class="Con">
+            <label for="contraseña">Contraseña</label>
+            <input class="entrada" type="password" name="con" id="contraseña">
+           </div>   
+    
+        <!--input para la fecha de nacimiento-->
+        
+    <div>
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input class="entrada" type="date" id="nacimiento" name="nac" value="dd" min="mm" max="yyyy" />
+    </div>
+
+        <!--Direccion-->
+        
+          <div>
+            <label for="direccion">Direccion</label>
+            <br>
+            <textarea class="entrada" name="direccion" id="direccion" cols="30" rows="10"></textarea>
+          </div>
+
+        <!--Form para entregar-->   
+            <div class="registro">
+            
+                    <input type="submit" value="Enviar">
+            
+            </div>
+        </fieldset>
+    </form>
+    </div>
+
+
+</body>
+
+
+
+
+</html>
+
